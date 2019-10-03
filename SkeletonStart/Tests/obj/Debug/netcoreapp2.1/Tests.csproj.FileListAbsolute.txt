@@ -1,0 +1,54 @@
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\nunit.engine.dll
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\Tests.deps.json
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.json
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\Tests.dll
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\Tests.pdb
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\Desktop\test\Tests\bin\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\Desktop\test\Tests\obj\Debug\netcoreapp2.1\Tests.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\test\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\test\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\test\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\test\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CopyComplete
+C:\Users\jeffr\Desktop\test\Tests\obj\Debug\netcoreapp2.1\Tests.dll
+C:\Users\jeffr\Desktop\test\Tests\obj\Debug\netcoreapp2.1\Tests.pdb
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\nunit.engine.dll
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.deps.json
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.json
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.dev.json
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.dll
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.pdb
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.csprojAssemblyReference.cache
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfoInputs.cache
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CopyComplete
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.dll
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\nunit.engine.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.deps.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Tests.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\bin\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CopyComplete
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Tests\obj\Debug\netcoreapp2.1\Tests.pdb
