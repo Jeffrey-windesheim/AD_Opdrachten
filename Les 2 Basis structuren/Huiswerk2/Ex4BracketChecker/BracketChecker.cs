@@ -11,27 +11,40 @@ namespace Huiswerk2
             char leftBracket = leftBracketString[0];
 
             bool valid = true;
+            int count = 0;
 
-            MyStack<char> stack = new MyStack<char>();
+            MyStack<string> stack = new MyStack<string>();
             
             foreach(char c in s)
             {
                 if (c.Equals(leftBracket))
                 {
-                    stack.Push(c);
+                    stack.Push(c.ToString());
+                    count++;
                 } else
                 {
-                    if(stack.Top().Equals(leftBracket))
+                    if (!stack.IsEmpty())
                     {
-                        stack.Pop();
-                    }
-                    else
+                        if (stack.Top().Equals(leftBracketString))
+                        {
+                            stack.Pop();
+                            count--;
+                        }
+                        else
+                        {
+                            valid = false;
+                        }
+                    } else
                     {
                         valid = false;
-                        break;
                     }
                 }
                  
+            }
+            
+            if (count != 0)
+            {
+                valid = false;
             }
 
             return valid;
