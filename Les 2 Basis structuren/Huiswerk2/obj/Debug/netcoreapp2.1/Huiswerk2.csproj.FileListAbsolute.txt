@@ -1,0 +1,44 @@
+C:\Users\jeffr\Desktop\test\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.deps.json
+C:\Users\jeffr\Desktop\test\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.runtimeconfig.json
+C:\Users\jeffr\Desktop\test\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\test\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\Desktop\test\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\Desktop\test\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\test\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\test\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\test\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\test\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\Desktop\test\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.deps.json
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.runtimeconfig.json
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.runtimeconfig.dev.json
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.csprojAssemblyReference.cache
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.AssemblyInfoInputs.cache
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.AssemblyInfo.cs
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\OneDrive\Documenten\school\Algorime en datastructuren\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.deps.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.runtimeconfig.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\SkeletonStart\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.deps.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.runtimeconfig.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\bin\Debug\netcoreapp2.1\Huiswerk2.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 2 Basis structuren\Huiswerk2\obj\Debug\netcoreapp2.1\Huiswerk2.pdb

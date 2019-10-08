@@ -1,0 +1,11 @@
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.deps.json
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.runtimeconfig.json
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.runtimeconfig.dev.json
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.dll
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.pdb
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.csprojAssemblyReference.cache
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.csproj.CoreCompileInputs.cache
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.AssemblyInfoInputs.cache
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.AssemblyInfo.cs
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.dll
+c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.pdb

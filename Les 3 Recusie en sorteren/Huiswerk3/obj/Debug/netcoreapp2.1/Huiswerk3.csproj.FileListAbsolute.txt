@@ -1,0 +1,22 @@
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.deps.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.runtimeconfig.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.deps.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.runtimeconfig.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\bin\Debug\netcoreapp2.1\Huiswerk3.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 3 Recusie en sorteren\Huiswerk3\obj\Debug\netcoreapp2.1\Huiswerk3.pdb
