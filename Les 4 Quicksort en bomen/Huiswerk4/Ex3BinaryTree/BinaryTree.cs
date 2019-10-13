@@ -1,3 +1,5 @@
+using System;
+
 namespace Huiswerk4
 {
     public class BinaryTree<T> : IBinaryTree<T>
@@ -10,12 +12,13 @@ namespace Huiswerk4
 
         public BinaryTree()
         {
-            throw new System.NotImplementedException();
+            root = null;
         }
 
         public BinaryTree(T rootItem)
         {
-            throw new System.NotImplementedException();
+            root.data = rootItem;
+            root.left = root.right = null;
         }
 
 
@@ -25,32 +28,76 @@ namespace Huiswerk4
 
         public BinaryNode<T> GetRoot()
         {
-            throw new System.NotImplementedException();
+            return root;
         }
 
         public int Size()
         {
-            throw new System.NotImplementedException();
+            return Size(root);
+        }
+
+        public int Size(BinaryNode<T> t)
+        {
+            if (t == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1 + Size(t.left) + Size(t.right);
+            }
         }
 
         public int Height()
         {
-            throw new System.NotImplementedException();
+            return Height(root);
+        }
+
+        public int Height(BinaryNode<T> t)
+        {
+            if (t == null)
+            {
+                return -1;
+            }
+            else
+            {
+                return 1 + Math.Max(Height(t.left), Height(t.right));
+            }
         }
 
         public void MakeEmpty()
         {
-            throw new System.NotImplementedException();
+            root = null;
         }
 
         public bool IsEmpty()
         {
-            throw new System.NotImplementedException();
+            if (Size() == 0)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
 
         public void Merge(T rootItem, BinaryTree<T> t1, BinaryTree<T> t2)
         {
-            throw new System.NotImplementedException();
+            if (t1.root == t2.root && t1.root != null)
+            {
+                throw new Exception("illegal argument");
+            }
+
+            root = new BinaryNode<T>(rootItem, t1.root, t2.root);
+
+            if(this != t1)
+            {
+                t1.root = null;
+            }
+            if(this != t2)
+            {
+                t2.root = null;
+            }
         }
 
         public string ToPrefixString()
