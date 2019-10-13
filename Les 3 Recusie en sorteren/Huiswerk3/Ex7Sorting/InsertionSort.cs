@@ -8,7 +8,19 @@ namespace Huiswerk3
     {
         public override void Sort(List<int> list)
         {
-            throw new System.NotImplementedException();
+            int n = list.Count;
+            for (int i = 1; i < n; ++i)
+            {
+                int key = list[i];
+                int j = i - 1;
+                
+                while (j >= 0 && list[j] > key)
+                {
+                    list[j + 1] = list[j];
+                    j = j - 1;
+                }
+                list[j + 1] = key;
+            }
         }
     }
 }

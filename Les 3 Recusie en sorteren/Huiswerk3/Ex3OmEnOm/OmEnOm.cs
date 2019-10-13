@@ -6,8 +6,20 @@ namespace Huiswerk3
     {
         public static int OmEnOm(int n)
         {
-            throw new System.NotImplementedException();
+            if(n < 0)
+            {
+                throw new OmEnOmNegativeValueException();
+            } 
+            if(n == 0 || n == 1)
+            {
+                return n;
+            } else
+            {
+                return n + OmEnOm(n - 2);
+            }
+            
         }
+
         public static void Run()
         {
             int MAX = 20;

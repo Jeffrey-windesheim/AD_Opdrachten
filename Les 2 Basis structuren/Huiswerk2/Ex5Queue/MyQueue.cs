@@ -5,29 +5,45 @@ namespace Huiswerk2
 {
     public class MyQueue<T> : IMyQueue<T>
     {
+        public List<T> queue = new List<T>();
+
         public bool IsEmpty()
         {
-            throw new NotImplementedException();
+            if(queue.Count == 0)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
 
         public void Enqueue(T data)
         {
-            throw new NotImplementedException();
+            queue.Add(data);
         }
 
         public T GetFront()
         {
-            throw new NotImplementedException();
+            if (IsEmpty())
+            {
+                throw new MyQueueEmptyException();
+            } else
+            {
+                return queue[0];
+            }
         }
 
         public T Dequeue()
         {
-            throw new NotImplementedException();
+            var temp = GetFront();
+            queue.RemoveAt(0);
+            return temp;
         }
 
         public void Clear()
         {
-            throw new NotImplementedException();
+            queue.Clear();
         }
 
     }

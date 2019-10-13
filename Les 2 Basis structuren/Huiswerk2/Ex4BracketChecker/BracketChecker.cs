@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Huiswerk2
 {
@@ -39,7 +41,6 @@ namespace Huiswerk2
                         valid = false;
                     }
                 }
-                 
             }
             
             if (count != 0)
@@ -52,7 +53,30 @@ namespace Huiswerk2
 
         public static bool CheckBrackets2(string s)
         {
-            throw new System.NotImplementedException();
+            var stack = new MyStack<char>();
+            
+            var allowedChars = new Dictionary<char, char>() { { '(', ')' }, { '[', ']' }, { '{', '}' } };
+
+            var wellFormated = true;
+            foreach (var chr in s)
+            {
+                if (allowedChars.ContainsKey(chr))
+                {
+                    stack.Push(chr);
+                }
+                
+                else if (allowedChars.ContainsValue(chr))
+                {
+                    var startingChar = stack.Pop();
+                    wellFormated = allowedChars.Contains(new KeyValuePair<char, char>(startingChar, chr));
+                   
+                    if (!wellFormated)
+                    {
+                        break;
+                    }
+                }
+            }
+            return wellFormated;
         }
 
     }

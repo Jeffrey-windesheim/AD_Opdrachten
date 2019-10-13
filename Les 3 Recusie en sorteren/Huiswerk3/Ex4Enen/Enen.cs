@@ -1,10 +1,22 @@
-﻿namespace Huiswerk3
+﻿using System;
+
+namespace Huiswerk3
 {
     public class Opgave4
     {
         public static int Enen(int n)
         {
-            throw new System.NotImplementedException();
+            string binary = Convert.ToString(n, 2);
+            int count = 0;
+            foreach (char c in binary)
+            {
+                if (c == '1')
+                {
+                    count++;
+                }
+            }
+
+            return count;
         }
 
         public static void Run()

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Huiswerk3
 {
@@ -6,12 +7,33 @@ namespace Huiswerk3
     {
         public static string ForwardString(List<int> list, int from)
         {
-            throw new System.NotImplementedException();
+            string result = "";
+
+            foreach (int number in list)
+            {
+                if (number >= from)
+                {
+                    result += number.ToString() + " ";
+                }
+            }
+
+            return result;
         }
         
         public static string BackwardString(List<int> list, int to)
         {
-            throw new System.NotImplementedException();
+            string result = "";
+
+            foreach (int number in list)
+            {
+                if (number >= to)
+                {
+                    string temp = number.ToString() + " " + result;
+                    result = temp;
+                }
+            }
+            
+            return result;
         }
 
         public static void Run()
