@@ -1,0 +1,11 @@
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\bin\Debug\netcoreapp2.1\Huiswerk4.deps.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\bin\Debug\netcoreapp2.1\Huiswerk4.runtimeconfig.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\bin\Debug\netcoreapp2.1\Huiswerk4.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\bin\Debug\netcoreapp2.1\Huiswerk4.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\bin\Debug\netcoreapp2.1\Huiswerk4.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\obj\Debug\netcoreapp2.1\Huiswerk4.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\obj\Debug\netcoreapp2.1\Huiswerk4.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\obj\Debug\netcoreapp2.1\Huiswerk4.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\obj\Debug\netcoreapp2.1\Huiswerk4.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\obj\Debug\netcoreapp2.1\Huiswerk4.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 4 Quicksort en bomen\Huiswerk4\obj\Debug\netcoreapp2.1\Huiswerk4.pdb
