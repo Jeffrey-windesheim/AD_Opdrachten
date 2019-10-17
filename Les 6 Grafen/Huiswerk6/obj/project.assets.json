@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Grafen\\Huiswerk6\\Huiswerk6.csproj",
+      "projectUniqueName": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Les 6 Grafen\\Huiswerk6\\Huiswerk6.csproj",
       "projectName": "Huiswerk6",
-      "projectPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Grafen\\Huiswerk6\\Huiswerk6.csproj",
+      "projectPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Les 6 Grafen\\Huiswerk6\\Huiswerk6.csproj",
       "packagesPath": "C:\\Users\\jeffr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Grafen\\Huiswerk6\\obj\\",
+      "outputPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Les 6 Grafen\\Huiswerk6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

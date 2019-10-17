@@ -9,3 +9,14 @@ c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswe
 c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.AssemblyInfo.cs
 c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.dll
 c:\Src\git\SE3AD-skeleton\Huiswerk\Les5 - Toepassingen binaire bomen\Code\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.deps.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.runtimeconfig.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\bin\Debug\netcoreapp2.1\Huiswerk5.pdb
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.csproj.CoreCompileInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.dll
+C:\Users\jeffr\Desktop\Programmas\AD\AD_Opdrachten\Les 5 Binaire bomen\Huiswerk5\obj\Debug\netcoreapp2.1\Huiswerk5.pdb

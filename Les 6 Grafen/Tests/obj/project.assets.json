@@ -5801,11 +5801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Grafen\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Les 6 Grafen\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Grafen\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Les 6 Grafen\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\jeffr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Grafen\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Les 6 Grafen\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5824,8 +5824,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Grafen\\Huiswerk6\\Huiswerk6.csproj": {
-              "projectPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Grafen\\Huiswerk6\\Huiswerk6.csproj"
+            "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Les 6 Grafen\\Huiswerk6\\Huiswerk6.csproj": {
+              "projectPath": "C:\\Users\\jeffr\\Desktop\\Programmas\\AD\\AD_Opdrachten\\Les 6 Grafen\\Huiswerk6\\Huiswerk6.csproj"
             }
           }
         }

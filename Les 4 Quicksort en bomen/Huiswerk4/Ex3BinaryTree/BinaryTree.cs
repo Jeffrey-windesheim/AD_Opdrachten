@@ -17,8 +17,12 @@ namespace Huiswerk4
 
         public BinaryTree(T rootItem)
         {
-            root.data = rootItem;
-            root.left = root.right = null;
+            root = new BinaryNode<T>
+            {
+                data = rootItem,
+                left = null,
+                right = null
+            };
         }
 
 
@@ -28,7 +32,14 @@ namespace Huiswerk4
 
         public BinaryNode<T> GetRoot()
         {
-            return root;
+            if (root == null)
+            {
+                return null;
+            } else
+            {
+                return root;
+            }
+           
         }
 
         public int Size()
@@ -41,8 +52,7 @@ namespace Huiswerk4
             if (t == null)
             {
                 return 0;
-            }
-            else
+            } else
             {
                 return 1 + Size(t.left) + Size(t.right);
             }
@@ -58,8 +68,7 @@ namespace Huiswerk4
             if (t == null)
             {
                 return -1;
-            }
-            else
+            } else
             {
                 return 1 + Math.Max(Height(t.left), Height(t.right));
             }
@@ -83,38 +92,79 @@ namespace Huiswerk4
 
         public void Merge(T rootItem, BinaryTree<T> t1, BinaryTree<T> t2)
         {
-            if (t1.root == t2.root && t1.root != null)
+            if(t2 == null)
             {
-                throw new Exception("illegal argument");
-            }
-
-            root = new BinaryNode<T>(rootItem, t1.root, t2.root);
-
-            if(this != t1)
+                root = new BinaryNode<T>(rootItem, t1.root, null);
+            } else if (t1 == null)
             {
-                t1.root = null;
-            }
-            if(this != t2)
+                root = new BinaryNode<T>(rootItem, null, t2.root);
+            } else
             {
-                t2.root = null;
+                root = new BinaryNode<T>(rootItem, t1.root, t2.root);
             }
         }
 
         public string ToPrefixString()
         {
-            throw new System.NotImplementedException();
+            return Prefix(root);
+        }
+
+        public string Prefix(BinaryNode<T> t)
+        {
+            string tree = "";
+
+            if (t != null)
+            {
+                tree += "[ " + t.data + " " + Prefix(t.left) + " " + Prefix(t.right) + " ]";
+            } else
+            {
+                tree = "NIL";
+            }
+
+            return tree;
         }
 
         public string ToInfixString()
         {
-            throw new System.NotImplementedException();
+            return Infix(root);
+        }
+
+        public string Infix(BinaryNode<T> t)
+        {
+            string tree = "";
+
+            if (t != null)
+            {
+                tree += "[ " + Infix(t.left) + " " + t.data + " " + Infix(t.right) + " ]";
+            }
+            else
+            {
+                tree = "NIL";
+            }
+
+            return tree;
         }
 
         public string ToPostfixString()
         {
-            throw new System.NotImplementedException();
+            return Postfix(root);
         }
 
+        public string Postfix(BinaryNode<T> t)
+        {
+            string tree = "";
+
+            if (t != null)
+            {
+                tree += "[ " + Postfix(t.left) + " " + Postfix(t.right) + " " + t.data + " ]";
+            }
+            else
+            {
+                tree = "NIL";
+            }
+
+            return tree;
+        }
 
         //----------------------------------------------------------------------
         // Interface methods : methods that have to be implemented for homework
@@ -122,17 +172,68 @@ namespace Huiswerk4
 
         public int NumberOfLeaves()
         {
-            throw new System.NotImplementedException();
+            return Nleaves(root);
+        }
+
+        public int Nleaves(BinaryNode<T> leave)
+        {
+            int count = 0;
+            if(leave != null)
+            {
+                if(leave.left == null && leave.right == null)
+                {
+                    count++;
+                } else
+                {
+                    count = count + Nleaves(leave.left) + Nleaves(leave.right);
+                }
+            } 
+            return count;
         }
 
         public int NumberOfNodesWithOneChild()
         {
-            throw new System.NotImplementedException();
+            return N1child(root);
+        }
+
+        public int N1child(BinaryNode<T> node)
+        {
+            int count = 0;
+            if (node != null)
+            {
+                if (node.left != null && node.right == null)
+                {
+                    count++;
+                } else if(node.left == null && node.right != null)
+                {
+                    count++;
+                } else
+                {
+                    count = count + N1child(node.left) + N1child(node.right);
+                }
+            }
+            return count;
         }
 
         public int NumberOfNodesWithTwoChildren()
         {
-            throw new System.NotImplementedException();
+            return N2children(root);
+        }
+
+        public int N2children(BinaryNode<T> node)
+        {
+            int count = 0;
+            if (node != null)
+            {
+                if (node.left != null && node.right != null)
+                {
+                    count = count + 1 + N2children(node.left) + N2children(node.right);
+                } else
+                {
+                    count = count + N2children(node.left) + N2children(node.right);
+                }
+            }
+            return count;
         }
 
     }
