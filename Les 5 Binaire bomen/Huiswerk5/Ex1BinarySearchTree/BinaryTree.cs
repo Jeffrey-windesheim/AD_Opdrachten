@@ -1,3 +1,5 @@
+using System;
+
 namespace Huiswerk5
 {
     public class BinaryTree<T> : IBinaryTree<T>
@@ -10,12 +12,17 @@ namespace Huiswerk5
 
         public BinaryTree()
         {
-            throw new System.NotImplementedException();
+            root = null;
         }
 
         public BinaryTree(T rootItem)
         {
-            throw new System.NotImplementedException();
+            root = new BinaryNode<T>
+            {
+                data = rootItem,
+                left = null,
+                right = null
+            };
         }
 
 
@@ -25,49 +32,146 @@ namespace Huiswerk5
 
         public BinaryNode<T> GetRoot()
         {
-            throw new System.NotImplementedException();
+            if (root == null)
+            {
+                return null;
+            }
+            else
+            {
+                return root;
+            }
+
         }
 
         public int Size()
         {
-            throw new System.NotImplementedException();
+            return Size(root);
+        }
+
+        public int Size(BinaryNode<T> t)
+        {
+            if (t == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1 + Size(t.left) + Size(t.right);
+            }
         }
 
         public int Height()
         {
-            throw new System.NotImplementedException();
+            return Height(root);
+        }
+
+        public int Height(BinaryNode<T> t)
+        {
+            if (t == null)
+            {
+                return -1;
+            }
+            else
+            {
+                return 1 + Math.Max(Height(t.left), Height(t.right));
+            }
         }
 
         public void MakeEmpty()
         {
-            throw new System.NotImplementedException();
+            root = null;
         }
 
         public bool IsEmpty()
         {
-            throw new System.NotImplementedException();
+            if (Size() == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public void Merge(T rootItem, BinaryTree<T> t1, BinaryTree<T> t2)
         {
-            throw new System.NotImplementedException();
+            if (t2 == null)
+            {
+                root = new BinaryNode<T>(rootItem, t1.root, null);
+            }
+            else if (t1 == null)
+            {
+                root = new BinaryNode<T>(rootItem, null, t2.root);
+            }
+            else
+            {
+                root = new BinaryNode<T>(rootItem, t1.root, t2.root);
+            }
         }
 
         public string ToPrefixString()
         {
-            throw new System.NotImplementedException();
+            return Prefix(root);
+        }
+
+        public string Prefix(BinaryNode<T> t)
+        {
+            string tree = "";
+
+            if (t != null)
+            {
+                tree += "[ " + t.data + " " + Prefix(t.left) + " " + Prefix(t.right) + " ]";
+            }
+            else
+            {
+                tree = "NIL";
+            }
+
+            return tree;
         }
 
         public string ToInfixString()
         {
-            throw new System.NotImplementedException();
+            return Infix(root);
+        }
+
+        public string Infix(BinaryNode<T> t)
+        {
+            string tree = "";
+
+            if (t != null)
+            {
+                tree += "[ " + Infix(t.left) + " " + t.data + " " + Infix(t.right) + " ]";
+            }
+            else
+            {
+                tree = "NIL";
+            }
+
+            return tree;
         }
 
         public string ToPostfixString()
         {
-            throw new System.NotImplementedException();
+            return Postfix(root);
         }
 
+        public string Postfix(BinaryNode<T> t)
+        {
+            string tree = "";
+
+            if (t != null)
+            {
+                tree += "[ " + Postfix(t.left) + " " + Postfix(t.right) + " " + t.data + " ]";
+            }
+            else
+            {
+                tree = "NIL";
+            }
+
+            return tree;
+        }
 
         //----------------------------------------------------------------------
         // Interface methods : methods that have to be implemented for homework
@@ -75,17 +179,72 @@ namespace Huiswerk5
 
         public int NumberOfLeaves()
         {
-            throw new System.NotImplementedException();
+            return Nleaves(root);
+        }
+
+        public int Nleaves(BinaryNode<T> leave)
+        {
+            int count = 0;
+            if (leave != null)
+            {
+                if (leave.left == null && leave.right == null)
+                {
+                    count++;
+                }
+                else
+                {
+                    count = count + Nleaves(leave.left) + Nleaves(leave.right);
+                }
+            }
+            return count;
         }
 
         public int NumberOfNodesWithOneChild()
         {
-            throw new System.NotImplementedException();
+            return N1child(root);
+        }
+
+        public int N1child(BinaryNode<T> node)
+        {
+            int count = 0;
+            if (node != null)
+            {
+                if (node.left != null && node.right == null)
+                {
+                    count++;
+                }
+                else if (node.left == null && node.right != null)
+                {
+                    count++;
+                }
+                else
+                {
+                    count = count + N1child(node.left) + N1child(node.right);
+                }
+            }
+            return count;
         }
 
         public int NumberOfNodesWithTwoChildren()
         {
-            throw new System.NotImplementedException();
+            return N2children(root);
+        }
+
+        public int N2children(BinaryNode<T> node)
+        {
+            int count = 0;
+            if (node != null)
+            {
+                if (node.left != null && node.right != null)
+                {
+                    count = count + 1 + N2children(node.left) + N2children(node.right);
+                }
+                else
+                {
+                    count = count + N2children(node.left) + N2children(node.right);
+                }
+            }
+            return count;
         }
     }
 }
