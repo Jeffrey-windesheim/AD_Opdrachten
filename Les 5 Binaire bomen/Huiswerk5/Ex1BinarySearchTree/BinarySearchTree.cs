@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace Huiswerk5
@@ -5,7 +6,9 @@ namespace Huiswerk5
     public class BinarySearchTree<T> : BinaryTree<T>, IBinarySearchTree<T>
         where T : System.IComparable<T>
     {
-        
+
+        private string number = "";
+
         //----------------------------------------------------------------------
         // Interface methods that have to be implemented for exam
         //----------------------------------------------------------------------
@@ -114,39 +117,34 @@ namespace Huiswerk5
 
         public string InOrder()
         {
-            InsertionSort(GetAll(root));
-
-        }
-
-        public void InsertionSort(List<int> list)
-        {
-            int n = list.Count;
-            for (int i = 1; i < n; ++i)
+            try
             {
-                int key = list[i];
-                int j = i - 1;
-
-                while (j >= 0 && list[j] > key)
-                {
-                    list[j + 1] = list[j];
-                    j = j - 1;
-                }
-                list[j + 1] = key;
+                return Order(root).Remove(number.Length - 1);
+            } catch
+            {
+                number = "";
+                return Order(root);
             }
+            
         }
 
-        public List<T> GetAll(BinaryNode<T> t)
+        public string Order(BinaryNode<T> t)
         {
-            List<T> tree = new List<T>();
-
             if (t != null)
             {
-                tree.Add(t.data);
-                GetAll(t.left);
-                GetAll(t.right);
+                Order(t.left);
+
+                number += t.data + " ";
+
+                Order(t.right);
             }
 
-            return tree;
+            return number;
+        }
+
+        public override string ToString()
+        {
+            return InOrder();
         }
     }
 }
