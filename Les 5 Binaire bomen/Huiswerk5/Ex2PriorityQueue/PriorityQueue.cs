@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Huiswerk5
 {
@@ -15,7 +16,7 @@ namespace Huiswerk5
         public PriorityQueue()
         {
             size = 0;
-            array = new T[DEFAULT_CAPACITY + 1];
+            array = new T[DEFAULT_CAPACITY];
         }
 
         //----------------------------------------------------------------------
@@ -28,8 +29,6 @@ namespace Huiswerk5
 
         public void Clear()
         {
-            array = new T[DEFAULT_CAPACITY + 1];
-
             size = 0;
         }
 
@@ -97,33 +96,29 @@ namespace Huiswerk5
 
         public void AddFreely(T x)
         {
-            throw new NotImplementedException();
+            array[++size] = x;
         }
 
         public void BuildHeap()
         {
-            throw new NotImplementedException();
+            for (int i = size / 2; i > 0; i--)
+            {
+                PercolateDown(i);
+            }
         }
 
         public override string ToString()
         {
-            string s = "";
-
-            if (size != 0)
+            StringBuilder sb = new StringBuilder();
+            for (int i = 1; i <= size; i++)
             {
-                foreach (T n in array)
+                sb.Append(array[i]);
+                if (i + 1 <= size)
                 {
-                    if (!n.Equals(0))
-                    {
-                        s += n + " ";
-                    }
-                    
+                    sb.Append(" ");
                 }
-
-                s = s.Remove(s.Length - 1);
-            } 
-            
-            return s;
+            }
+            return sb.ToString();
         }
     }
 }

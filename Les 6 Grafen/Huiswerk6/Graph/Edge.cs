@@ -10,5 +10,6 @@ namespace Huiswerk6
             dest = d;
             cost = c;
         }
+
     }
 }

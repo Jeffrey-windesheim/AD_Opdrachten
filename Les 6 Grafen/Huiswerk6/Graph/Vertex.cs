@@ -4,14 +4,34 @@ namespace Huiswerk6
 {
     public class Vertex : IVertex
     {
-        public Vertex(string name)
+        public String name { get; set; }
+        public List<Edge> adj { get; set; }
+        public double dist { get; set; }
+        public Vertex prev { get; set; }
+        public int? scratch { get; set; }
+
+        public Vertex(string nm)
         {
-            throw new System.NotImplementedException();
+            this.name = nm;
+            adj = new List<Edge>();
+            Reset();
         }
 
         public void Reset()
         {
-            throw new System.NotImplementedException();
+            dist = Graph.INFINITY;
+            prev = null;
+            //pos = null;
+            scratch = null;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"{name} --> ");
+            foreach (Edge v in adj)
+                sb.Append($"{v.dest.name}({v.cost}) ");
+            return sb.ToString().Trim();
         }
 
     }
