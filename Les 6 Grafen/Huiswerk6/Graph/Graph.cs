@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Huiswerk6
 {
@@ -45,7 +46,7 @@ namespace Huiswerk6
 
         public void ClearAll()
         {
-            throw new System.NotImplementedException();
+            //throw new System.NotImplementedException();
         }
 
 
@@ -77,7 +78,7 @@ namespace Huiswerk6
             Vertex start;
             if (!vertexMap.TryGetValue(startName, out start))
             {
-                throw new ArgumentException("Start vertex not found");
+                throw new Exception("Start vertex not found");
             }
             Queue<Vertex> q = new Queue<Vertex>();
             q.Enqueue(start);
@@ -102,41 +103,43 @@ namespace Huiswerk6
 
         public void Dijkstra(string startName)
         {
-            GraphPriorityQueue pq = new GraphPriorityQueue();
+            //throw new System.NotImplementedException();
 
-            Vertex start;
-            if (!vertexMap.TryGetValue(startName, out start))
-            {
-                throw new ArgumentException("Start vertex not found");
-            }
-            ClearAll();
-            pq.Add(new Path(start, 0));
-            start.dist = 0;
-            int nodesSeen = 0;
-            while (!pq.isEmpty() && nodesSeen < vertexMap.Count)
-            {
-                Path vrec = pq.Remove();
-                Vertex v = vrec.dest;
-                if (v.scratch != null)
-                    continue;
-                v.scratch = 1;
-                nodesSeen++;
+            //GraphPriorityQueue pq = new GraphPriorityQueue();
 
-                foreach (Edge e in v.adj)
-                {
-                    Vertex w = e.dest;
-                    double cvw = e.cost;
-                    if (cvw < 0)
-                        throw new ArgumentException("Graph has negative edges");
+            //Vertex start;
+            //if (!vertexMap.TryGetValue(startName, out start))
+            //{
+            //    throw new ArgumentException("Start vertex not found");
+            //}
+            //ClearAll();
+            //pq.Add(new Path(start, 0));
+            //start.dist = 0;
+            //int nodesSeen = 0;
+            //while (!pq.isEmpty() && nodesSeen < vertexMap.Count)
+            //{
+            //    Path vrec = pq.Remove();
+            //    Vertex v = vrec.dest;
+            //    if (v.scratch != null)
+            //        continue;
+            //    v.scratch = 1;
+            //    nodesSeen++;
 
-                    if (w.dist > v.dist + cvw)
-                    {
-                        w.dist = v.dist + cvw;
-                        w.prev = v;
-                        pq.Add(new Path(w, w.dist));
-                    }
-                }
-            }
+            //    foreach (Edge e in v.adj)
+            //    {
+            //        Vertex w = e.dest;
+            //        double cvw = e.cost;
+            //        if (cvw < 0)
+            //            throw new ArgumentException("Graph has negative edges");
+
+            //        if (w.dist > v.dist + cvw)
+            //        {
+            //            w.dist = v.dist + cvw;
+            //            w.prev = v;
+            //            pq.Add(new Path(w, w.dist));
+            //        }
+            //    }
+            //}
         }
 
         public bool IsConnected()

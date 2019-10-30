@@ -9,8 +9,7 @@ namespace Huiswerk6
         Vertex GetVertex(string name);
         void AddEdge(string source, string dest, double cost);
         void ClearAll();
-        string ToString();
-
+        
         //----------------------------------------------------------------------
         // Methods that have to be implemented for homework
         //----------------------------------------------------------------------
