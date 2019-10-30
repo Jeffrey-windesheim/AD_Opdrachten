@@ -35,11 +35,21 @@ namespace Huiswerk5
         public void Add(T x)
         {
             int hole = size++;
+
             array[0] = x;
 
             for (; x.CompareTo(array[hole / 2]) < 0; hole /= 2)
             {
-                array[hole] = array[hole / 2];
+                if (size < array.Length)
+                {
+                    array[hole] = array[hole / 2];
+                } else
+                {
+                    T[] tmp = array;
+                    array = new T[size * 2];
+                    array = tmp;
+                }
+                
             }
 
             array[hole] = x;
@@ -110,10 +120,11 @@ namespace Huiswerk5
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            for (int i = 1; i <= size; i++)
+
+            for (int i = 1; i < size + 1; i++)
             {
                 sb.Append(array[i]);
-                if (i + 1 <= size)
+                if (i + 1 < size + 1)
                 {
                     sb.Append(" ");
                 }
